@@ -14,8 +14,8 @@ AUTH_WPA_PSK = 2
 AUTH_WPA2_PSK = 3
 AUTH_WPA_WPA2_PSK = 4
 
-SSID = "Makerfabs"      #Modify here with SSID
-PASSWORD = "20160704"   #Modify here with PWD
+SSID = "P51D"      #Modify here with SSID
+PASSWORD = "4055284055"   #Modify here with PWD
 led = Pin(5, Pin.OUT)
 ip = "ip get wrong"
 
@@ -71,4 +71,5 @@ def connect():
  do_connect(SSID,PASSWORD)
  global ip
  return ip
+
 
